@@ -1,8 +1,1 @@
-broadbean==0.11.0
-h5netcdf==1.1.0
-xhistogram==0.3.2
-uncertainties==3.1.7
-schema==0.7.5
-tqdm==4.65.0
-tabulate==0.9.0
-wrapt==1.15.0
+qcodes=0.38
