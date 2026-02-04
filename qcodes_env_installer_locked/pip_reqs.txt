@@ -1,0 +1,8 @@
+qm-octave==2.0.1
+qm-qua==1.1.6
+qualang-tools==0.15.2
+zhinst-core==25.1.0.834
+zhinst-qcodes==0.5.4
+zhinst-timing-models==25.1.0
+zhinst-toolkit==0.7.1
+zhinst-utils==0.7.0
