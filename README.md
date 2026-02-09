@@ -29,10 +29,11 @@ Usage is similar as with anaconda but everything can be run from PowerShell. So 
 3. use ```cd``` to change to the target drive (e.g. K:)
 4. ```jupyter lab``` to run jupyter lab
 ## Plottr Environment
-Work in Progress
-### Activation
-in powershell:
-```micromamba activate qcodes_auto```
+Install by running install.bat
+### Usage
+1. Open Windows PowerShell
+2. ```micromamba activate plottr_auto``` to activate the environment
+3. ```plottr-inspectr``` to start the program
 
 ## Using the environment with Jupyterlab
 
