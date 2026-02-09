@@ -18,7 +18,9 @@ Check if micromamba is already installed:
 ## QCoDeS + Labber Environment
 The following instructions are for a simple installation of a micromamba environment where both QCoDeS (v0.37) and the Labber API are installed. This allows for the usage of the functions in QcodesToLabber.py to translate your QCoDeS measurements to .hdf5 files that are readable by Labber's Log Browser.
 ### Installation
-Simply run `install.bat`
+1. Download the repository as a zip
+2. Extract the qcodes_env_installer folder
+3. Run `install.bat`
 
 In case there may be a problem with the installation, some packages may have been updated and cause issues with dependencies. A possible solution is to use the .yml file found int the conda-lock folder. To do so, first follow the instructions below for removing the environmen. Afterwards copy the .yml file in conda-lock into the qcodes_env_installer folder and run the install.bat again.
 
@@ -29,13 +31,14 @@ Usage is similar as with anaconda but everything can be run from PowerShell. So 
 3. use ```cd``` to change to the target drive (e.g. K:)
 4. ```jupyter lab``` to run jupyter lab
 ## Plottr Environment
-Install by running install.bat
+### Installation
+1. Download the repository as a zip
+2. Extract the plottr_env_installer folder
+3. Run `install.bat`
 ### Usage
 1. Open Windows PowerShell
 2. ```micromamba activate plottr_auto``` to activate the environment
 3. ```plottr-inspectr``` to start the program
-
-## Using the environment with Jupyterlab
 
 ## Removing the environment and cleaning to uninstall
 1. Start powershell, make sure you are not in the virtual environement ```micromamba deactivate```
