@@ -21,11 +21,19 @@ The following instructions are for a simple installation of a micromamba environ
 Simply run `install.bat`
 
 In case there may be a problem with the installation, some packages may have been updated and cause issues with dependencies. A possible solution is to use the .yml file found int the conda-lock folder. To do so, first follow the instructions below for removing the environmen. Afterwards copy the .yml file in conda-lock into the qcodes_env_installer folder and run the install.bat again.
+
+### Usage with jupyter
+Usage is similar as with anaconda but everything can be run from PowerShell. So to e.g. use jupyter simply:
+1. Open Windows PowerShell
+2. ```micromamba activate qcodes_auto``` to activate the environment
+3. use ```cd``` to change to the target drive (e.g. K:)
+4. ```jupyter lab``` to run jupyter lab
 ## Plottr Environment
 Work in Progress
 ### Activation
 in powershell:
 ```micromamba activate qcodes_auto```
+
 ## Using the environment with Jupyterlab
 
 ## Removing the environment and cleaning to uninstall

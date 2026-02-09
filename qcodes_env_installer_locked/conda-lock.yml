@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    win-64: 63705623d412f20abf20f149897e55d0e315194b4ed37fd677066de1c8676fda
+    win-64: 197ae57392fe4d3775463fff79a1de03d55d9483b7e67f629625bdd2d5d32d15
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -2227,7 +2227,7 @@ package:
   category: main
   optional: false
 - name: numpy
-  version: 1.26.4
+  version: 1.23.5
   manager: conda
   platform: win-64
   dependencies:
@@ -2238,11 +2238,11 @@ package:
     python_abi: 3.9.*
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
-    vc14_runtime: '>=14.29.30139'
-  url: https://conda.anaconda.org/conda-forge/win-64/numpy-1.26.4-py39hddb5d58_0.conda
+    vs2015_runtime: '>=14.29.30139'
+  url: https://conda.anaconda.org/conda-forge/win-64/numpy-1.23.5-py39hbccbffa_0.conda
   hash:
-    md5: 6e30ff8f2d3f59f45347dfba8bc22a04
-    sha256: 25473fb10de8e3d92ea07777fce90508b5fce76fd942b333625ae27f7c50d74d
+    md5: 2de785b8afd83444f5ebc60161689c0d
+    sha256: 57ab332114438bf567a46b6befdf3a99dde1c3606121fb99b99fe53750380cca
   category: main
   optional: false
 - name: opencensus
