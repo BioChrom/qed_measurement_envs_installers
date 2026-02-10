@@ -45,4 +45,4 @@ Usage is similar as with anaconda but everything can be run from PowerShell. So 
 2. Remove environment: ```micromamba remove -n qcodes_auto --all``` confirm the change
 3. Verify it's gone: ```micromamba env list``` Make sure "qcodes_auto does not appear. If it does, go to the directory in the file explorer and delete it
 4. Prevent issues from solver when trying to reinstall: ```micromamba clean --all --yes```
-
+5. Note that these steps may leave an empty folder with the environment name that was used. In that case it can either be deleted manually or it can simply be overwritten when an environment using the same name is created
